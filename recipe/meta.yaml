@@ -1,5 +1,5 @@
 {% set name = "archinfo" %}
-{% set version = "9.2.80" %}
+{% set version = "9.2.81" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/archinfo-{{ version }}.tar.gz
-  sha256: 868a2640f67d368e3d1f84b6cea8e74f3644d33588fd1f9b7e16c24394b02f37
+  sha256: 93b1a28b4ae4422835824c97d13ec92a5f2676fa76b37730a7f11f09ab678c91
 
 build:
   noarch: python
